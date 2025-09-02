@@ -1,0 +1,26 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "printWidth": 80,
+  "bracketSameLine": false,
+  "htmlWhitespaceSensitivity": "css",
+  "jsxSingleQuote": false,
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": ["*.tsx", "*.jsx"],
+      "options": {
+        "singleQuote": false,
+        "jsxSingleQuote": false
+      }
+    },
+    {
+      "files": ["*.ts", "*.js"],
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
+}
