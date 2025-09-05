@@ -12,8 +12,8 @@
     {
       "files": ["*.tsx", "*.jsx"],
       "options": {
-        "singleQuote": false,
-        "jsxSingleQuote": false
+        "singleQuote": true,
+        "jsxSingleQuote": true
       }
     },
     {
