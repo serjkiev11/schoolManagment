@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🚀 Start Dev Server",
+      "type": "npm",
+      "script": "dev",
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      }
+    },
+    {
+      "label": "📊 Prisma Studio",
+      "type": "npm",
+      "script": "s",
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      }
+    },
+    {
+      "label": "🔄 Database Push",
+      "type": "npm",
+      "script": "p",
+      "group": "build"
+    },
+    {
+      "label": "⚡ Generate Client",
+      "type": "npm",
+      "script": "g",
+      "group": "build"
+    },
+    {
+      "label": "🔄 Push + Generate",
+      "type": "shell",
+      "command": "npm run p && npm run g",
+      "group": "build"
+    }
+    ,
+    {
+      "label": "🗂 Prisma Migrate",
+      "type": "npm",
+      "script": "m",
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      }
+    }
+  ]
+}
